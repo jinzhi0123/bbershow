@@ -29,7 +29,7 @@ hexo.extend.filter.register('after_generate', function () {
         }
     //cdn资源声明
     //样式资源
-    const css_text = `<link rel="stylesheet" href="${data.custom_css}"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-butterfly-swiper/lib/swiperstyle.css">`
+    const css_text = `<link rel="stylesheet" href="${data.custom_css}"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jinzhi0123/bbershow/lib/bbr_index.css">`
     //脚本资源
     const js_text = `<script defer src="${data.custom_js}"></script><script defer data-pjax src="https://cdn.jsdelivr.net/npm/hexo-butterfly-swiper/lib/swiper_init.js"></script>`
 }
